@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E315616E1EEA050300460C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315616D1EEA050300460C05 /* AppDelegate.swift */; };
-		E31561701EEA050300460C05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315616F1EEA050300460C05 /* ViewController.swift */; };
+		E31561701EEA050300460C05 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315616F1EEA050300460C05 /* HomeVC.swift */; };
 		E31561731EEA050300460C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31561711EEA050300460C05 /* Main.storyboard */; };
 		E31561761EEA050300460C05 /* NotesCoreDataAwYeah.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E31561741EEA050300460C05 /* NotesCoreDataAwYeah.xcdatamodeld */; };
 		E31561781EEA050300460C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31561771EEA050300460C05 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		E315616A1EEA050300460C05 /* NotesCoreDataAwYeah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesCoreDataAwYeah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E315616D1EEA050300460C05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E315616F1EEA050300460C05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E315616F1EEA050300460C05 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		E31561721EEA050300460C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E31561751EEA050300460C05 /* NotesCoreDataAwYeah.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotesCoreDataAwYeah.xcdatamodel; sourceTree = "<group>"; };
 		E31561771EEA050300460C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E315616D1EEA050300460C05 /* AppDelegate.swift */,
-				E315616F1EEA050300460C05 /* ViewController.swift */,
+				E315616F1EEA050300460C05 /* HomeVC.swift */,
 				E31561711EEA050300460C05 /* Main.storyboard */,
 				E31561771EEA050300460C05 /* Assets.xcassets */,
 				E31561791EEA050300460C05 /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E31561701EEA050300460C05 /* ViewController.swift in Sources */,
+				E31561701EEA050300460C05 /* HomeVC.swift in Sources */,
 				E31561761EEA050300460C05 /* NotesCoreDataAwYeah.xcdatamodeld in Sources */,
 				E315616E1EEA050300460C05 /* AppDelegate.swift in Sources */,
 			);
